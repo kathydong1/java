@@ -14,4 +14,6 @@ java类型------8个类型
              转义字符 ‘\n'回车
                      '\r'换行
          -----boolean  逻辑运算 true和false
+         -----byte 1位
+         -----short
              
