@@ -16,4 +16,6 @@ java类型------8个类型
          -----boolean  逻辑运算 true和false
          -----byte 1位
          -----short
+         
+         强制转换   （类型）变量
              
