@@ -10,4 +10,8 @@ java类型------8个类型
          ----long 8位  长整形，有范围-百亿到+百亿，结尾必须加上l或者L才能表示是长整形
          ----double 8位  浮点数，。。。java默认是double类型，
          ----float 4 位  浮点数，结尾加上f或者F
+         ----char 由两部分组成，字符+码   char是一个16位无符号的Unicode码
+             转义字符 ‘\n'回车
+                     '\r'换行
+         -----boolean  逻辑运算 true和false
              
