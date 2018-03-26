@@ -43,21 +43,26 @@ java类型------8个类型
                      
                      
           数组排序    java方法
-                        import java.utils.Array
-                        Array.sort 
+                        import java.util.Arrays
+                        Array.sort 
                      冒泡排序
-                       for(var i=0;i<=arr.length;i++){
-                           for(var j=0;j<=arr.length-1-i;j++){
+                       for(var i=0;i<arr.length;i++){
+                           for(var j=0;j<arr.length-1-i;j++){
                                if(arr[j]>arr[j+1]){
                                    int t=arr[j]
-                                   arr[j+1]=arr[j]
-                                   arr[j]=t
+                                   arr[j]=arr[j+1]
+                                   arr[j+1]=t
                                
                                }
                            }
                        }
                      
-            
+          数组扩容     Arrays.copyOf(原数组，数组长度)
+                      int[] arr={1,2,5,6}
+                      Arrays.copyOf(arr,6)
+          数组复制     System.arraycopy(原数组，原数组下标，新数组位置，复制个数)
+                      
+              
 
            
     
