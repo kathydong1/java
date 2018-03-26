@@ -73,6 +73,12 @@ java类型------8个类型
           System.arraycopy(a1,0,a2,4)
           Arrays.copyOf()
           Arrays.sort()
+          public static（修饰词） int（返回值类型） sum（方法名）(参数){}
+          public static void sum()
+          void--没有返回值
+          int---有返回值
+          
+          
                       
               
 
