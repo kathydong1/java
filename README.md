@@ -61,7 +61,19 @@ java类型------8个类型
                       int[] arr={1,2,5,6}
                       Arrays.copyOf(arr,6)
           数组复制     System.arraycopy(原数组，原数组下标，新数组位置，复制个数)
-                      
+          
+          java.util.Scanner-----input元
+          java.util.Random------随机数
+          java.util.Arrays------数组
+          
+   java 方法
+          System.out.println()
+          scan.nextInt()--接受用户输入
+          rand.nextInt()
+          System.arraycopy(a1,0,a2,4)
+          Arrays.copyOf()
+          Arrays.sort()
+                      
               
 
            
