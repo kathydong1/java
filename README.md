@@ -77,6 +77,20 @@ java类型------8个类型
           public static void sum()
           void--没有返回值
           int---有返回值
+    java对象和类
+          java重载，构造方法，
+          重载：方法名字相同但参数不同
+          构造：与类同名，没有返回值类型，常常用于变量初始化，构造方法自动调用，构造方法可以重载，不写时默认时无参构造函数
+          public class Aoo{
+                int row
+                double age
+                //构造方法
+                Aoo(){
+                  row++
+                  age++
+                }
+                }
+         
           
           
                       
