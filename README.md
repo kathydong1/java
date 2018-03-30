@@ -7,7 +7,7 @@ linux系统----一个根目录（安全级别比较高）/且不能修改----操
              
 java类型------8个类型
          ----int 4位  整形（整数），有范围+21亿到-21亿，会有益出现象，超出变负值。。。Java默认是整形类型  中等
-         ----long 8位  长整形，有范围-百亿到+百亿，结尾必须加上l或者L才能表示是长整形                    比较大
+         ----long 8位  长整形，有范围-百亿到+百亿，结尾必须加上l或者L才能表示是长整形,结尾加上l或者L             比较大
          ----double 8位  浮点数，。。。java默认是double类型，
          ----float 4 位  浮点数，结尾加上f或者F
          ----char 由两部分组成，字符+码   char是一个16位无符号的Unicode码
@@ -59,9 +59,9 @@ java类型------8个类型
                      
           数组扩容     Arrays.copyOf(原数组，数组长度)
                       int[] arr={1,2,5,6}
-                      Arrays.copyOf(arr,6)
-          数组复制     System.arraycopy(原数组，原数组下标，新数组位置，复制个数)
-          
+                      arr=Arrays.copyOf(arr,6)
+          数组复制     System.arraycopy(原数组，原数组下标，新数组位置，复制个数)---比较
+          
           java.util.Scanner-----input元
           java.util.Random------随机数
           java.util.Arrays------数组
@@ -78,8 +78,9 @@ java类型------8个类型
           void--没有返回值
           int---有返回值
     java对象和类
-          java重载，构造方法，
-          重载：方法名字相同但参数不同
+          签名,java重载，构造方法，
+          签名：方法名和参数结合在一起叫做签名，
+          重载：方法名字相同但参数不同，
           构造：与类同名，没有返回值类型，常常用于变量初始化，构造方法自动调用，构造方法可以重载，不写时默认时无参构造函数
           public class Aoo{
                 int row
@@ -101,6 +102,24 @@ java类型------8个类型
          回收机制：
          JVM隔断时间自动回收，如果不及时会造成内存泄漏，为防止内存泄漏，引用完之后设置为null
          System.gc只是打电话给收拾垃圾的，早点过来回收
+       
+    java继承extends
+         class b{
+            int m;
+            int n;
+            void say(){}
+            }
+         class a extends b{
+           a继承b类，
+              super()----不写也默认调用B类的构造函数
+         }
+         
+         
+         java“向上造型”
+             java声明变量时，可以声明父类数据类型，new子集对象
+        
+        
+    
          
           
           
