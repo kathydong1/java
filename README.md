@@ -40,7 +40,8 @@ java类型------8个类型
           声明数组    dataType[] arr={3,5,7,7,8}----直接给数组arr赋值
                      dataType[] arr= new dataType[5] -----声明一个长度为5的数组，没有赋值默认每一项是0，
                      dataType[] arr=new dataType{1，2，5，6，8，7}-----声明一个数组直接赋值
-                     
+                     dataType[][] arr=new dataType[3][]----声明一个数组长度为3的数据类型为数据类型的数组
+                     
                      
           数组排序    java方法
                         import java.util.Arrays
