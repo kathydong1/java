@@ -158,6 +158,23 @@ java类型------8个类型
             同基本类型的强制类型转换相同
             大类型转小类型直接转，小类型转大类型要用（），且可不可以转要看对象的类型
         
+        内部类和匿名类
+          内部类是class套用class，里边的class称为内部类，外边的class称为外部类，内部类可以直接取外部类的成员变量，内部类一般在初始化或者方法体内new
+          匿名内部类也就是没有名字的内部类，所以匿名内部类只能使用一次，它通常用来简化代码编写，new时后边加{}，就是匿名内部类，{}内写方法体
+          abstract class Person {
+                      public abstract void eat(){};
+                      }
+
+          public class Demo {
+                public static void main(String[] args) {
+                              Person p = new Person() {
+                                  public void eat() {
+                                      System.out.println("eat something");
+                                  }
+                              };
+                              p.eat();
+                          }
+                      }
         
     
          
